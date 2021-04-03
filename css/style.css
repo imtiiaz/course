@@ -1,0 +1,1077 @@
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #000342;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000342;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+@media screen and (max-width:991px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}
+
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.overflow_x {
+    overflow-x: hidden;
+}
+
+.sec_padd {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .sec_padd {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+.nxt_arrow {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    color: #6d6d6d;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.pre_arrow {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    color: #6d6d6d;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.slick-slide:focus,
+.slick-active:focus {
+    outline: 0;
+}
+
+/* 2.-------------------------------------------
+                    Header Section
+-----------------------------------------------*/
+
+.main_menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar-toggler {
+    padding: 10px 0;
+}
+
+.navbar-toggler i {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.main_menu .navbar-brand {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.main_menu .nav-item {
+    position: relative;
+}
+
+.main_menu .nav-item {
+    padding-right: 50px;
+}
+
+.main_menu .nav-item .nav-link {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.main_menu .dropdown {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.main_menu .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.main_menu p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+@media screen and (max-width:1199px) {
+    .main_menu .navbar-brand {
+        font-size: 40px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .navbar-nav {
+        background: #000342;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .main_menu .nav-item .nav-link {
+        display: inline-block;
+    }
+
+}
+
+/* 3.-------------------------------------------
+                    Banner Section
+-----------------------------------------------*/
+
+#banner_section {
+    background: url(../images/banner/bannr-bg-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 400px;
+}
+
+.banner_content h1 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner_content form {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px 10px 0;
+    border-radius: 20px;
+}
+
+.banner_content .search {
+    margin-bottom: 15px;
+}
+
+.banner_content .search .form-control {
+    font-size: 20px;
+    height: 60px;
+    color: #878a98;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border: 0;
+}
+
+.form_bottom .drop_down > ul > li {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.form_bottom .drop_down > ul > li.drop_down_item {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 160px;
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.form_bottom .drop_down > ul > li.drop_down_item:after {
+    content: '\f0d7';
+    position: absolute;
+    font-family: 'Font Awesome 5 free';
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 900;
+    font-size: 20px;
+    color: #000342;
+    pointer-events: none;
+}
+
+.form_bottom .drop_down > ul > li > button {
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to left, #e75852, #e23d6e, #cd308d, #a738ab, #6548c2);
+    border-radius: 30px;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 0;
+}
+
+.drop_down > ul > li.drop_down_item .all_checkbox {
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: 500px;
+    text-align: left;
+    border-radius: 10px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    box-shadow: 0px 6px 38px rgb(0 0 0 / 9%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.form_bottom .drop_down > ul > li.drop_down_item .all_checkbox {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.form_bottom .drop_down > ul > li.drop_down_item:hover .all_checkbox {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.all_checkbox .checkbox_group {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.all_checkbox .checkbox_group h4 {
+    color: #000342;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.all_checkbox .checkbox_group .form_group {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.all_checkbox .checkbox_group label {
+    color: #000342;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.all_checkbox .apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all_checkbox .apply a {
+    color: #000342;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.all_checkbox .apply button {
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid #000342;
+    background: #fff;
+    padding: 8px 40px;
+}
+
+.categories {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    text-align: left;
+    background: #fff;
+    width: 300px;
+    visibility: hidden;
+    opacity: 0;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 38px rgb(0 0 0 / 9%);
+    z-index: 9;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+
+.categories ul li a {
+    color: #000342;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.drop_down > ul > li.drop_down_item:hover .categories {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+@media screen and (max-width:1199px) {
+
+    .form_bottom .drop_down > ul > li.drop_down_item {
+        font-size: 19px;
+        padding-left: 25px;
+        padding-right: 100px;
+    }
+
+    .form_bottom .drop_down > ul > li.drop_down_item .all_checkbox {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .categories {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        padding-bottom: 0;
+    }
+
+    .main_menu p {
+        font-size: 16px;
+    }
+
+    #banner_section {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+
+    .banner_content h1 {
+        font-size: 42px;
+    }
+
+    .banner_content .search .form-control {
+        height: 40px;
+        font-size: 14px;
+        padding-left: 30px;
+    }
+
+    .form_bottom .drop_down > ul > li.drop_down_item {
+        font-size: 16px;
+        padding-left: 18px;
+        padding-right: 65px;
+    }
+
+    .form_bottom .drop_down > ul > li.drop_down_item:after {
+        font-size: 16px;
+    }
+
+    .form_bottom .drop_down > ul > li.button {
+        display: block;
+    }
+
+    .form_bottom .drop_down > ul > li > button {
+        font-size: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .form_bottom .drop_down > ul > li.drop_down_item .all_checkbox {
+        max-width: 300px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 15px;
+        overflow: scroll;
+        height: 500px;
+    }
+
+    .all_checkbox .checkbox_group h4 {
+        font-size: 16px;
+    }
+
+    .all_checkbox .checkbox_group label {
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .all_checkbox .apply a {
+        font-size: 14px;
+    }
+
+    .all_checkbox .apply button {
+        font-size: 13px;
+        padding: 5px 30px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    #banner_section {
+        padding-top: 140px;
+        padding-bottom: 80px;
+    }
+
+    .banner_content h1 {
+        font-size: 35px;
+        line-height: 1.1;
+    }
+
+    .form_bottom .drop_down > ul > li.drop_down_item {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 59px;
+    }
+
+    .form_bottom .drop_down > ul > li.drop_down_item .all_checkbox {
+        height: 300px;
+        max-width: 226px;
+        overflow-y: scroll;
+    }
+
+    .form_bottom .drop_down > ul > li > button {
+        font-size: 14px;
+    }
+
+    .categories {
+        width: 200px;
+    }
+}
+
+
+/* 4.-------------------------------------------
+                    Popular categories Section
+-----------------------------------------------*/
+#popular_categories_section {}
+
+#popular_categories_section h1 {
+    margin-bottom: 35px;
+}
+
+.popular_categories_img {
+    position: relative;
+}
+
+.popular_categories_img img {
+    border-radius: 10px;
+}
+
+.popular_categories_img h2 {
+    font-size: 24px;
+    color: #dfd07e;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width:991px) {
+
+    .popular_categories_img h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .popular_categories_img h2 {
+        font-size: 18px;
+    }
+}
+
+/* 5.-------------------------------------------
+                    Live Section
+-----------------------------------------------*/
+
+#live_section {
+    background: #f3f4f9;
+}
+
+#live_section .container-fluid {
+    overflow: hidden;
+}
+
+#live_section h1 {
+    position: relative;
+    display: inline-block;
+}
+
+#live_section h1:after {
+    position: absolute;
+    content: '';
+    background: #dfd07e;
+    height: 2px;
+    left: 120%;
+    bottom: 9px;
+    width: 2000px;
+}
+
+.live_section_text h3 {
+    font-size: 34px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.live_section_text ul li {
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 40px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.live_section_text ul li:after {
+    content: '\f00c';
+    position: absolute;
+    font-family: 'Font Awesome 5 free';
+    left: 0;
+    top: 5px;
+    font-weight: 900;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #000342;
+    color: #fff;
+    pointer-events: none;
+}
+
+.live_section_text ul li p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.live_section_img {
+    position: relative;
+}
+
+.live_section_img img {
+    border-radius: 15px;
+    position: relative;
+}
+
+.live_section_img h4 {
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    padding: 5px 15px;
+    border: 2px solid red;
+    top: 30px;
+    left: 30px;
+}
+
+@media screen and (max-width:575px) {
+    .live_section_text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .live_section_text ul li {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .live_section_text ul li p {
+        font-size: 16px;
+    }
+
+    .live_section_img h4 {
+        font-size: 12px;
+        top: 15px;
+        left: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {}
+
+/* 6.-------------------------------------------
+                    Best Section
+-----------------------------------------------*/
+
+#best_section .best_img img {
+    border-radius: 10px;
+}
+
+/* 6.-------------------------------------------
+                    Courses Section
+-----------------------------------------------*/
+
+#courses_section {
+    background-color: #f3f4f9;
+    background-image: url(../images/course/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    height: 700px;
+}
+
+.position_1 {
+    left: -30px;
+    bottom: 0;
+}
+
+.position_2 {
+    left: -30px;
+    top: 100px;
+}
+
+#courses_section .container-fluid {
+    overflow: hidden;
+}
+
+#courses_section h1 {
+    position: relative;
+    display: inline-block
+}
+
+#courses_section h1:after {
+    position: absolute;
+    content: '';
+    background: #dfd07e;
+    height: 2px;
+    right: 120%;
+    bottom: 9px;
+    width: 2000px;
+}
+
+
+
+.courses_text h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 34px;
+    padding-top: 40px
+}
+
+@media screen and (max-width:991px) {
+    #courses_section {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .courses_text h3 {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    #courses_section {
+        height: 315px;
+    }
+
+    .courses_text h3 {
+        font-size: 22px;
+    }
+}
+
+/* 7.-------------------------------------------
+                  All  Box 
+-----------------------------------------------*/
+
+.box {
+    box-shadow: 0px 6px 38px rgb(0 0 0 / 9%);
+}
+
+.box .boximg {
+    border-radius: 15px;
+    position: relative;
+}
+
+.box .boximg > img {
+    border-radius: 15px;
+    max-height: 230px;
+    object-fit: cover;
+}
+
+.box .boximg .p_box {
+    display: flex;
+    width: 150px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.box .boximg .live p {
+    font-size: 12px;
+    padding: 3px 15px;
+    border: 2px solid #fd0203;
+    color: #fd0203;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.box .boximg .p_box img {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.box .boximg .p_box p {
+    font-size: 11px;
+}
+
+.box .boximg .p_box h6 {
+    font-size: 13px;
+}
+
+.box .boxtext {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box_1 .boxtext .textmiddle {
+    border-bottom: 1px solid #dfd07e;
+    padding-bottom: 15px;
+}
+
+.box .boxtext .textmiddle h4 {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.box .boxtext .textmiddle p {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.box .boxtext .boxbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.box .boxtext .boxbottom .react a {
+    display: block;
+    font-size: 20px;
+}
+
+.box .boxtext .boxbottom .react .love {
+    color: #b0b0b0;
+}
+
+.box .boxtext .boxbottom .react .love {
+    color: #b0b0b0;
+}
+
+.box .boxtext .boxbottom .react .love:hover,
+.box .boxtext .boxbottom .react .love.active {
+    color: #fd0203;
+}
+
+.box .boxtext .boxbottom .react .star {
+    color: #fbba42;
+}
+
+.box .boxtext .boxbottom .react .star span {
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+.box .boxtext .boxbottom .price h5 {
+    font-size: 26px;
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left: 1px solid #fbba42
+}
+
+.box_2 .boximg .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.box_2 .boximg .text h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.box_2 .boximg .text p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.box_2 .boximg .text p i {
+    margin-right: 10px;
+}
+
+.box_2 .boxtext .textmiddle {
+    padding-bottom: 20px;
+}
+
+.box_2 .boxtext .boxbottom {
+    display: inherit;
+}
+
+.box_2 .boxtext .boxbottom .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_2 .boxtext .boxbottom .icon .react {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_2 .boxtext .boxbottom .icon .react .msg {
+    color: #b0b0b0;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:575px) {}
+
+@media screen and (max-width:575px) {}
+
+/* 8.-------------------------------------------
+                    Mentor Section
+-----------------------------------------------*/
+
+#mentor_section ul li {
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 40px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+
+#mentor_section ul li:after {
+    content: '\f00c';
+    position: absolute;
+    font-family: 'Font Awesome 5 free';
+    left: 0;
+    top: 5px;
+    font-weight: 900;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #000342;
+    color: #fff;
+    pointer-events: none;
+}
+
+#mentor_section ul li p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#mentor_section .mentor_img {
+    position: relative;
+}
+
+#mentor_section .mentor_img img {
+    border-radius: 10px;
+}
+
+#mentor_section .mentor_img .p_img_1 {
+    position: absolute;
+    bottom: 17px;
+    left: -280px;
+}
+
+#mentor_section .mentor_img .p_img_2 {
+    position: absolute;
+    top: 0;
+    right: -50px;
+}
+
+@media screen and (max-width:767px) {
+    #mentor_section ul li {
+        font-size: 20px;
+        padding-left: 35px;
+        margin-bottom: 20px;
+    }
+
+    #mentor_section ul li p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:575px) {}
+
+/* 9.-------------------------------------------
+                    Best Trainer
+-----------------------------------------------*/
+
+#best_trainer {}
+
+/* 9.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+/* 9.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
