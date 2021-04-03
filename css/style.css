@@ -286,7 +286,7 @@ button:focus,
 
 .banner_content form {
     background: rgba(0, 0, 0, 0.3);
-    padding: 20px 10px 0;
+    padding: 30px 10px 20px;
     border-radius: 20px;
 }
 
@@ -697,6 +697,10 @@ button:focus,
     position: relative;
 }
 
+.live_section_img a {
+    display: block;
+}
+
 .live_section_img img {
     border-radius: 15px;
     position: relative;
@@ -711,6 +715,8 @@ button:focus,
     top: 30px;
     left: 30px;
 }
+
+@media screen and (max-width:1199px) {}
 
 @media screen and (max-width:575px) {
     .live_section_text h3 {
@@ -739,6 +745,9 @@ button:focus,
 /* 6.-------------------------------------------
                     Best Section
 -----------------------------------------------*/
+#best_section .best_img a {
+    display: block;
+}
 
 #best_section .best_img img {
     border-radius: 10px;
@@ -831,7 +840,11 @@ button:focus,
     position: relative;
 }
 
-.box .boximg > img {
+.box .boximg > a {
+    display: block;
+}
+
+.box .boximg > a img {
     border-radius: 15px;
     max-height: 230px;
     object-fit: cover;

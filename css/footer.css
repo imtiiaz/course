@@ -22,9 +22,10 @@ footer {
 
 .footer_item > ul > li.dropdown {
     display: inline-block;
+    margin-bottom: 10px;
 }
 
-.footer_item > ul > li.dropdown > a {
+.footer_item > ul > li.dropdown > h5 {
     color: #000342;
     background: #fff;
     padding-top: 10px;
@@ -36,7 +37,7 @@ footer {
     position: relative;
 }
 
-.footer_item > ul > li.dropdown > a:after {
+.footer_item > ul > li.dropdown > h5:after {
     content: '\f0d7';
     position: absolute;
     font-family: 'Font Awesome 5 free';
@@ -92,7 +93,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    .footer_item > ul > li > a {
+    .footer_item > ul > li h5 {
         font-size: 16px;
     }
 
